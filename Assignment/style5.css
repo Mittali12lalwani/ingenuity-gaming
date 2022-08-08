@@ -13,7 +13,7 @@
 .highway {
     width: 300%;
     height: 200px;
-    background-image: url("https://lh3.googleusercontent.com/pEX6tETUlnSIZdEtWo8Rdd6a4KGu7HzkhINYpmyPv7MxVY1Z4FE72aFLK-L8pynae7CnrqS7PTJ5qtw=w1898-h932");
+    background-image: url("./highway\ image.jpg");
     position: absolute;
     bottom: 0%;
     left: 0%;
@@ -29,7 +29,7 @@
 .city {
     width: 300%;
     height: 200px;
-    background-image: url("https://lh6.googleusercontent.com/CAnEF9tYD4ObAK_d9J_osvbT67o1FCNDE8hNsuxJf-RVnzwGHANt9IRneTRif_3EByREBZE4dbLaUsk=w1898-h932");
+    background-image: url("./cityimage.png");
     position: absolute;
     bottom: 200px;
     left: 0%;
