@@ -26,7 +26,7 @@
         document.write(`<br>The subtraction of ${num1} and ${num2} is ${subtraction}`);
         const division = num1/num2;
         document.write(`<br>The division of ${num1} and ${num2} is ${division}`);
-        document.body.style.backgroundColor ="grey";
+        document.body.style.backgroundColor ="lightgrey";
         document.body.style.textshadow ="black";
         document.body.style.color ="red";
         document.body.style.fontSize ="50px";
