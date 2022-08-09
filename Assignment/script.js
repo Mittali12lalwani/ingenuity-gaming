@@ -1,14 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mathmatical operation</title>
-</head>
-<body>
-    <script>
-        const num1 = parseInt(prompt('Entre the first number'));
+//Assignment1
+
+    var date =new Date();
+    var day= date.getDate();
+    var month=date.getMonth()+1;
+    var year =date.getFullYear();
+    document.write("Today Date:"+0+day+"/"+0+month+"/"+year);
+    var weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+    var day = weekday[date.getDay()];
+    document.write("<br>Today Day:"+day);
+
+
+// Assignment 2
+    var name = window.prompt("Enter Your Name ");
+        document.write("<br>"+"Your Name is =" + name);
+
+
+//Assignment3
+    const num1 = parseInt(prompt('Entre the first number'));
         const num2 = parseInt(prompt('Entre the second number'));
         const sum = num1+num2;
         document.write(`<br>The sum of ${num1} and ${num2} is ${sum}`);
@@ -22,6 +30,7 @@
         document.body.style.textshadow ="black";
         document.body.style.color ="red";
         document.body.style.fontSize ="50px";
-    </script>
-</body>
-</html>
+//Assignment4
+        
+
+//node Script.js
