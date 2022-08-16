@@ -8,5 +8,5 @@ function checkString(str){
         return s;
     }
 }
-console.log(checkString("New! nuiqbus"));
-console.log(checkString("hbgrtbi"));
+document.write(checkString("New! nuiqbus"+"<br>"));
+document.write(checkString("hbgrtbi"));

@@ -1,9 +1,9 @@
 function Name(){
-    let firstname="Vani",
-     lastname="Jain";
+    let firstname="Mittali",
+     lastname="Lalwani";
     return [firstname,lastname];
 }
 
 let name=Name();
-console.log(name[0]);
-console.log(name[1]);
+document.write(name[0]+"<br>");
+document.write(name[1]);

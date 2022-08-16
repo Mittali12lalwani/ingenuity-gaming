@@ -7,11 +7,11 @@ function addString(str){
     var first=a.substring(0,3);
     var last=a.substring(a.length-3,a.length+1);
     var addString=first+last;
-    console.log(addString);
+    document.write(addString+"<br>");
     if(addString.length>=3){
         return "We get good string";
     }
 
 }
-console.log(addString("hbgyvefy"));
+document.write(addString("hbgyvefy"));
 

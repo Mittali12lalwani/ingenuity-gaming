@@ -5,10 +5,11 @@ function len(){
     for(var i=0;i<a;i++){
         // var n=parseInt(prompt("Enter your number to add"));
         var n=arguments[i];
+        
         s=s+n;
     }
     console.log(s);
-    // document.write(s);
+    document.write(s+"<br>");
      
 }
 len(1,2,3,4);
