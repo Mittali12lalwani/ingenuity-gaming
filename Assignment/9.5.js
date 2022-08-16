@@ -13,5 +13,5 @@ function addString(str){
     }
 
 }
-console.log(addString("abcjndef"));
-console.log(addString("ab"));
+console.log(addString("hbgyvefy"));
+
