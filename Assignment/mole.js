@@ -5,7 +5,7 @@ var startbtn = document.querySelector("#start");
 var points = document.querySelectorAll(".points");
 var dirts = document.querySelectorAll(".dirt");
 var mole = document.querySelectorAll(".mole");
-var current=document.getElementById('currentPoint')
+var currentPoint=document.getElementById('currentPoint')
 
 function start(){
     h1.style.visibility = "hidden";
