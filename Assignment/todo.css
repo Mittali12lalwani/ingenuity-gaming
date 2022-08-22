@@ -15,6 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Lobster', cursive;
   }
   header {
     font-size: 40px;
@@ -27,6 +28,7 @@
     font-size: 24px;
     background: white;
     outline: none;
+    font-family: 'Pacifico', cursive;
   }
   form button {
     color: blue;
@@ -46,6 +48,7 @@
     color:black;
     margin: 8px;
     /* border:2px solid black */
+    font-family: 'Pacifico', cursive;
   }
   .todo-List{
     /* justify-content: space-between;
