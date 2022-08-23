@@ -1,118 +1,123 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body {
-    background: linear-gradient(120deg, skyblue, blue);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    min-height: 100vh;
-  }
-  header,
-  form {
-    height: 15vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Lobster', cursive;
-  }
-  header {
-    font-size: 40px;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(120deg, skyblue, blue);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUXwBVC31irjXuUneMuaRfesP-YTX_TX1o97ZL_LFnZcqt7naNk4nKMhd-lkYowHfG-_0&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: maroon;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  font-size: medium;
+  font-style: bold;
+}
+header,
+form {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lobster', cursive;
+}
+header {
+  font-size: 40px;
+}
+
+form input,
+form button {
+  padding: 10px;
+  border: none;
+  font-size: 24px;
+  background: white;
+  outline: none;
+  font-family: 'Pacifico', cursive;
+}
+form button {
+  color: blue;
+  background-color: white;
+  cursor: pointer;
+}
+form button:hover {
+  color: white;
+  background-color: skyblue;
+}
+.todo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  background: white;
+  color:black;
+  margin: 8px;
+  /* border:2px solid black */
+  font-family: 'Pacifico', cursive;
+}
+.todo-List{
+  /* justify-content: space-between;
+  flex: 1; */
+  min-width: 25%;
+  list-style: none;
+
+}
+
+.todo li{
+  flex: 1;
+}
+.todo-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.todo_item{
+  color: black;
+  text-decoration: none;
+  /* margin: 8px; */
+  background-color: white;
+  padding: 10px;
+  list-style: none;
+  margin: 0 8px;
+
+}
+
+/* .newLi li{
+  text-decoration: none;
+} */
+
+.deltbtn,.cmpltbtn{
+  padding: 60px;
+  color: white;
+  padding: 16px;
+  cursor: pointer;
+  font-size: 16px;
+  /* outline: none; */
+
+}
+.deltbtn{
+  background-color: red;
+  border: 2px solid red;
  
-  form input,
-  form button {
-    padding: 10px;
-    border: none;
-    font-size: 24px;
-    background: white;
-    outline: none;
-    font-family: 'Pacifico', cursive;
-  }
-  form button {
-    color: blue;
-    background-color: white;
-    cursor: pointer;
-  }
-  form button:hover {
-    color: white;
-    background-color: skyblue;
-  }
-  .todo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    background: white;
-    color:black;
-    margin: 8px;
-    /* border:2px solid black */
-    font-family: 'Pacifico', cursive;
-  }
-  .todo-List{
-    /* justify-content: space-between;
-    flex: 1; */
-    min-width: 25%;
-    list-style: none;
+}
 
-  }
-
-  .todo li{
-    flex: 1;
-  }
-  .todo-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .todo_item{
-    color: black;
-    text-decoration: none;
-    /* margin: 8px; */
-    background-color: white;
-    padding: 10px;
-    list-style: none;
-    margin: 0 8px;
-
-  }
+.deltbtn:hover{
+  cursor: pointer;
  
-  /* .newLi li{
-    text-decoration: none;
-  } */
+}
+.cmpltbtn:hover{
+  cursor: pointer;
+}
+.cmpltbtn{
+  background-color: lightgreen;
+  /* border: 2px solid green; */
+  border: 2px solid lightgreen;
+}
+.deltbtn i,.cmpltbtn i{
+  pointer-events: none;
  
-  .deltbtn,.cmpltbtn{
-    padding: 60px;
-    color: white;
-    padding: 16px;
-    cursor: pointer;
-    font-size: 16px;
-    /* outline: none; */
-
-  }
-  .deltbtn{
-    background-color: red;
-    border: 2px solid red;
-   
-  }
-
-  .deltbtn:hover{
-    cursor: pointer;
-   
-  }
-  .cmpltbtn:hover{
-    cursor: pointer;
-  }
-  .cmpltbtn{
-    background-color: lightgreen;
-    /* border: 2px solid green; */
-    border: 2px solid lightgreen;
-  }
-  .deltbtn i,.cmpltbtn i{
-    pointer-events: none;
-   
-  }
-  .check{
-    opacity: 0.5;
-    text-decoration: line-through;
-  }
+}
+.check{
+  opacity: 0.5;
+  text-decoration: line-through;
+}
