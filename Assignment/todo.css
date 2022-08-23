@@ -39,7 +39,7 @@
     color: white;
     background-color: skyblue;
   }
-  .divEle{
+  .todo{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +58,7 @@
 
   }
 
-  .divEle li{
+  .todo li{
     flex: 1;
   }
   .todo-container{
@@ -66,7 +66,7 @@
     align-items: center;
     justify-content: center;
   }
-  .newLi{
+  .todo_item{
     color: black;
     text-decoration: none;
     /* margin: 8px; */
@@ -81,7 +81,7 @@
     text-decoration: none;
   } */
  
-  .deletebutton,.completebutton{
+  .deltbtn,.cmpltbtn{
     padding: 60px;
     color: white;
     padding: 16px;
@@ -90,25 +90,25 @@
     /* outline: none; */
 
   }
-  .deletebutton{
+  .deltbtn{
     background-color: red;
     border: 2px solid red;
    
   }
 
-  .deletebutton:hover{
+  .deltbtn:hover{
     cursor: pointer;
    
   }
-  .completebutton:hover{
+  .cmpltbtn:hover{
     cursor: pointer;
   }
-  .completebutton{
+  .cmpltbtn{
     background-color: lightgreen;
     /* border: 2px solid green; */
     border: 2px solid lightgreen;
   }
-  .deletebutton i,.completebutton i{
+  .deltbtn i,.cmpltbtn i{
     pointer-events: none;
    
   }

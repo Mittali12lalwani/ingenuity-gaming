@@ -86,6 +86,8 @@ for(var i=0;i<50;i++)
     var newDiv=document.createElement("div");
     newDiv.classList.add('todo');
 
+
+
     var newLi=document.createElement("li");
     newLi.classList.add("todo_item");
     //newLi.innerHTML=toInput.value ;
