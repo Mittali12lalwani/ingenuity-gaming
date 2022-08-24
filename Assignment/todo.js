@@ -1,4 +1,3 @@
-
 var toInput=document.querySelector(".todo-input");
 var btn = document.querySelector("button");
 var todoList=document.querySelector(".todo-list");
@@ -9,6 +8,7 @@ console.log(ll);
 
 for(var i=0;i<50;i++)
 {
+    console.log('hello');
     var rr="tt"+i;
     if(window.localStorage.getItem(rr)==null)
     {
@@ -19,8 +19,6 @@ for(var i=0;i<50;i++)
     
     var newDiv=document.createElement("div");
     newDiv.classList.add('todo');
-
-
 
     var newLi=document.createElement("li");
     newLi.classList.add("todo_item");
@@ -153,6 +151,3 @@ todoList.onclick=function checkbtn(e){
 }
 
 
-
-   
-    
