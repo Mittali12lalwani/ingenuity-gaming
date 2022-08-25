@@ -6,9 +6,13 @@
 
 .container
 {
+    background-image: url("https://ps.w.org/covid-19-corona-virus-report/assets/icon-256x256.gif?rev=2277944");
+    background-size: cover;
+    background-repeat: no-repeat;
+     /* background: rgb(191,15,15);
+    background: radial-gradient(circle, rgba(191,15,15,1) 100%, rgba(180,25,25,0.5942752100840336) 100%);   */
     height: 100vh;
-    background-image:url("https://img.freepik.com/free-vector/covid-19-coronavirus-infection-outburst-spread-background-design_1017-24428.jpg?w=2000");
-    display:flex;
+    display:flex; 
     align-items:center;
     justify-content:center;
     flex-direction: column;
@@ -16,21 +20,32 @@
 }
 
 .entry{
-    height: 80%;
-    width: 70%;
-    background-color: #fff;
-    background-color: rgba(49, 53, 53, 0.5);
+    height: 70%;
+    width: 50%;
+    background: url("https://thumbs.gfycat.com/DetailedLoathsomeAmericangoldfinch-size_restricted.gif");
+    background-size: cover;
+    background-repeat: no-repeat; 
     border-radius: 20px;
     align-items: center;
     display: flex;
     flex-direction: column;
+    color: rgb(219, 121, 104); 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+    
+      
 }
 #header{
     margin: 25px;
-    color:orange;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* color:rgb(219, 0, 117); */
+    font-family: 'Permanent Marker', cursive;
     text-shadow: 5px 2px 5px;
+    background: -webkit-linear-gradient(rgb(238, 10, 117), rgb(228, 35, 35));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:bisque;
+    font-style: bold;
+    font-size: 40px;
+
 }
 #forme{
  display: flex;
@@ -40,8 +55,12 @@
 .format{
     display: flex;
     justify-content:end;
+    justify-items: start;
     width: 100%;
     padding: 10px;
+    color: red; 
+    font-size: 28px;
+    text-align: center;
 }
 label{
     padding-right: 10px;
@@ -53,5 +72,8 @@ label{
 #cn
 {
     background-color: transparent;
+    color: red; 
+    font-size: 25px;
+
 }
 
