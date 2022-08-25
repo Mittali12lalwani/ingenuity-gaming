@@ -44,7 +44,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color:bisque;
     font-style: bold;
-    font-size: 40px;
+    font-size: 30px;
 
 }
 #forme{
@@ -55,7 +55,7 @@
 .format{
     display: flex;
     justify-content:end;
-    justify-items: start;
+    justify-items: end;
     width: 100%;
     padding: 10px;
     color: red; 
@@ -73,7 +73,7 @@ label{
 {
     background-color: transparent;
     color: red; 
-    font-size: 25px;
+    font-size: 20px;
 
 }
 
