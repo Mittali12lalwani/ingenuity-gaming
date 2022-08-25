@@ -1,7 +1,7 @@
 // selector
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
-
+ 
 const image = document.getElementById("source");
 
 const player = {
