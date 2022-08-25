@@ -295,17 +295,32 @@ button a:hover{
     font-size: 20px;
 
 }
-
-#preloader{
-    background: black url("./gradient-circle-loading.gif") no-repeat center ;
-    background-size: 35%;
+.container{
+    display: none;
+}
+.loader{
     height: 100vh;
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-    text-align: center;
+    width: 100vw;
+    overflow: hidden;
+    background-color: black;
+    position: absolute;
 }
-.h2{
-    color: white;
-    text-align: center;
-}
+.loader>div{
+    height: 100px;
+    width: 100px;
+    border: 15px solid #45474b;
+    border-top-color:#208806 ;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    animation: spin 1.5s infinite linear;
+    }
+    @keyframes spin{
+        100%{
+           transform: rotate(360deg);
+        }
+    }

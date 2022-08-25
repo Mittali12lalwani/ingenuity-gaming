@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pop up and loader</title>
     <link rel="stylesheet" href="pop.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
     <!-- for making website firstly design template -->
     <!-- html is case insensitive -->
+    //<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
-<div id="preloader">
-    
-</div>
 <body>
+ <div class="loader">
+    <div></div>
+ </div>
     <!-- semantic tags---which nhas defined meaning with its name itself
     ex--header,nav,article-->
     <!-- div and span are non-semantic tag -->
@@ -193,24 +194,31 @@
         </footer>
 
     </div>
-<script>
-    var loader = document.getElementById("preloader");
-    window.onload = function() {
-   setTimeout(function(){
-    stoploader();
-    // modal.style.display = "block";
-    }, 1000);
- };
-function stoploader(){
-    document.getElementById("loader").style.display="none";
-document.getElementById("content").style.display="block";
-}
-    
+ <script src="./pop.js"></script>
+ <script>
+ setTimeout(openpopup, 7000);
+     function openpopup()
+  
+     {
+        var url="./assignment13.html";
+    var Windowsize="height=500 , width=500";
+    var newi=window.open(url,"_blank",Windowsize);
+    console.log("hi");
+    newi.moveTo(500,200);
+    //Interval(pop);
+     }
+
+
+   function popup()
+   {
+    var url="./assignment13.html";
+    var Windowsize="height=500 , width=500";
+    var newi=window.open(url,"_blank",Windowsize);
+    console.log("hi");
+    newi.moveTo(500,200);
+   }
+
 </script>
-
-
-
-
 
 </body>
 
