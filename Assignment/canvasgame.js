@@ -118,21 +118,25 @@ function detectWalls() {
   if (player.y + player.h > canvas.height) {
     player.y = canvas.height - player.h;
   }
+
   if (player.x + player.w > 150 ) {
     player.x = 150 - player.w;
   }
-  if(player.x>75){
-    if (player.y + player.h <485) {
-          player.y = 485;
+   if(player.x>75){
+     if (player.y + player.h <485) {
+           player.y = 485;
     } 
-}
+   }
 if(player.y>435){
-if(player.x>55 && player.y>435){
-  player.x=55;
-  player.y=435;
-}
-}
-
+ if(player.x>55 && player.y>435){
+   player.x=55;
+   player.y=435;
+ }
+ }
+ if(player.y<=100)
+ {
+   player.y=0;
+ }
 }
 // Create Animation
 function update() {
