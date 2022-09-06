@@ -20,11 +20,15 @@ let value1=parseInt(value);
 let y:number[]=[];
 for(let i=0;i<value1;i++){
     let mynumber:any=prompt("Enter number");
+    console.log(mynumber);
     let num=parseInt(mynumber);
     y.push(num);
-}
-document.body.style.textAlign="center";
-document.body.style.color="white";
-document.body.style.fontSize="24px";
+    console.log(y);
 
+}
 document.write("My sum is: "+varargs1(...y));
+
+// document.body.style.textAlign="center";
+// document.body.style.color="white";
+// document.body.style.fontSize="24px";
+

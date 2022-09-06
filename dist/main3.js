@@ -11,10 +11,9 @@ let value1 = parseInt(value);
 let y = [];
 for (let i = 0; i < value1; i++) {
     let mynumber = prompt("Enter number");
+    console.log(mynumber);
     let num = parseInt(mynumber);
     y.push(num);
+    console.log(y);
 }
-document.body.style.textAlign = "center";
-document.body.style.color = "white";
-document.body.style.fontSize = "24px";
 document.write("My sum is: " + varargs1(...y));
